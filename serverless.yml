@@ -7,7 +7,12 @@ provider:
   region: ap-northeast-1
 
 package:
-  artifact: https://s3.amazonaws.com/hirobel-sandbox/try-sls-deploy-from-artifact.jar
+  # artifact: build/libs/try-sls-deploy-from-artifact.jar
+  # artifact: build/distributions/hello.zip
+  # artifact: https://s3.amazonaws.com/hirobel-sandbox/try-sls-deploy-from-artifact.jar
+  # artifact: https://hirobel-sandbox.s3-ap-northeast-1.amazonaws.com/try-sls-deploy-from-artifact.jar
+  artifact: https://hirobel-sandbox.s3.amazonaws.com/try-sls-deploy-from-artifact.jar
+
 
 functions:
   hello:

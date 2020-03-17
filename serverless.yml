@@ -8,7 +8,7 @@ provider:
 
 package:
   # artifact: build/distributions/hello.zip
-  artifact: https://s3.amazonaws.com/hirobel-sandbox/try-sls-deploy-from-artifact.jar
+  artifact: https://s3.amazonaws.com/hirobel-sandbox/hello.zip
 
 functions:
   hello:

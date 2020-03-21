@@ -1,0 +1,15 @@
+service: try-sls-deploy-from-artifact
+
+provider:
+  name: aws
+  runtime: java8
+  stage: dev
+  region: ap-northeast-1
+
+package:
+  # artifact: build/distributions/hello.zip
+  artifact: https://s3.amazonaws.com/hirobel-sandbox/hello.zip
+
+functions:
+  hello:
+    handler: com.serverless.Handler

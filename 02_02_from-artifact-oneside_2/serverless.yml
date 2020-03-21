@@ -14,7 +14,7 @@ functions:
   hello:
     handler: com.serverless.Handler
     package:
-      individually: false
+      individually: true
       artifact: https://s3.amazonaws.com/hirobel-sandbox/sls-deploy-from-artifact/hello_v0.0.1.zip
 
   goodbye:

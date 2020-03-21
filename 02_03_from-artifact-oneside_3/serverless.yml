@@ -1,4 +1,4 @@
-service: try-sls-deploy-from-artifact02_03
+service: try-sls-deploy-from-artifact023
 
 provider:
   name: aws

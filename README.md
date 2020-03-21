@@ -5,6 +5,7 @@ Serverless FW公式ガイドを参考に、S3にホストされたパッケー�
 自分の勉強用です
 
 # 前提事項
+* aws-java-gradleのテンプレートをベースにしています
 * `serverless deploy` コマンド実行時に、 `aws-profile` を指定するとS3からオブジェクトを取得する処理でエラーになりますので、同オプションを指定しないでデプロイを行う必要があります
 * 「エラー: メイン・クラスorg.gradle.wrapper.GradleWrapperMainが見つからなかったかロードできませんでした」が表示される場合には `gradle wrapper` コマンドでgradle-wrapper.jarを再生成してください
 
